@@ -7,7 +7,7 @@ export class LoggerFactory {
             case LogType.Console:
                 return new ConsoleLogger();
             default:
-                return new ConsoleLogger();
+                return new ConsoleLogger(); // You get the idea.
         }
     }
 }
